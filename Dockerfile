@@ -42,6 +42,8 @@ RUN echo "html:html" | chpasswd html
 
 # create /var/www/html
 ADD index.php /var/www/html
+ADD custom_json.php /var/www/html
+ADD file.json /var/www/html
 RUN chown -R html:html /var/www/html
 
 # create startup script

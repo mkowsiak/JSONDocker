@@ -17,7 +17,9 @@ cat << EOFA
             following way:
 
 
-            http://localhost:80
+            http://localhost:80/
+            http://localhost:80/index.php
+            http://localhost:80/custom_json.php
 
 
             You can also access content using Python

@@ -11,6 +11,8 @@ This Docker based JSON generator start simple HTTP server that generates JSON ba
     |-- LICENSE.md                             - MIT license file
     |-- README.md                              - this README.md file
     |-- index.php                              - sample PHP application
+    |-- custom_json.php                        - reads file.json and sends it's content via http
+    |-- file.json                              - you can put some custom JSON file here
     `-- start.sh                               - startup script for Docker container
     
 # Starting JSON content server
@@ -42,7 +44,11 @@ This Docker based JSON generator start simple HTTP server that generates JSON ba
     following way:
 
 
-    http://localhost:80
+    http://localhost:80/
+    http://localhost:80/index.php
+    http://localhost:80/custom_json.php
+
+
 
 
     You can also access content using Python
