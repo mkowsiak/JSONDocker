@@ -27,6 +27,36 @@ This Docker based JSON generator start simple HTTP server that generates JSON ba
       -p 80:80 \
       jsonserver /bin/start.sh
 
+## Once started, container will wait for http connections
+
+    ******************************************************
+
+            https://github.com/mkowsiak/JSONDocker
+
+    ******************************************************
+
+    Python Programming Specialization JSON testing server
+    ------------------------------------------------------
+
+    Server is running, try to connect to the server
+    following way:
+
+
+    http://localhost:80
+
+
+    You can also access content using Python
+
+
+    import requests
+    import json
+
+    p = requests.get("http://localhost:80")
+    print(p.json())
+
+
+    Have fun!
+
 # Known limitations
 
 At the moment, JSONDocker generates simple JSON based content. Nothing fancy.
