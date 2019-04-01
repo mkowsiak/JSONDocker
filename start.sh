@@ -20,6 +20,7 @@ cat << EOFA
             http://localhost:80/
             http://localhost:80/index.php
             http://localhost:80/custom_json.php
+            http://localhost:80/slow.php
 
 
             You can also access content using Python
