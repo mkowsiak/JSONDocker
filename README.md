@@ -12,6 +12,7 @@ This Docker based JSON generator start simple HTTP server that generates JSON ba
     |-- README.md                              - this README.md file
     |-- index.php                              - sample PHP application
     |-- custom_json.php                        - reads file.json and sends it's content via http
+    |-- slow.php                               - slow page - it takes 5 sec. to load it
     |-- file.json                              - you can put some custom JSON file here
     `-- start.sh                               - startup script for Docker container
     
@@ -47,8 +48,7 @@ This Docker based JSON generator start simple HTTP server that generates JSON ba
     http://localhost:80/
     http://localhost:80/index.php
     http://localhost:80/custom_json.php
-
-
+    http://localhost:80/slow.php
 
 
     You can also access content using Python
