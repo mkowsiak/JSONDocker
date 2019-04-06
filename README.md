@@ -1,6 +1,6 @@
 [![Price](https://img.shields.io/badge/price-FREE-0098f7.svg)](https://github.com/mkowsiak/JSONDocker/blob/master/LICENSE.md)
 [![GitHub](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/mkowsiak/JSONDocker/blob/master/LICENSE.md)
-# Simple JSON generator - notes on Python Programming Specialization 
+# Simple JSON generator - notes on Python Programming Specialization (Coursera)
 
 This Docker based JSON generator start simple HTTP server that generates JSON based content.
 
